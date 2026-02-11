@@ -1,0 +1,27 @@
+Stack in Function Calls (Call Stack)
+
+When a function is called, its data (variables, return address) is pushed onto the stack.
+When it finishes, it is popped.
+Since the last function called finishes first, stack follows LIFO.
+
+2️⃣ Stack in Undo/Redo
+
+Each action is pushed onto the Undo stack.
+Undo pops the last action.
+Redo uses another stack to restore the undone action.
+
+3️⃣ Stack in Expression Evaluation
+
+Stack helps in checking balanced parentheses and evaluating postfix/prefix expressions.
+Operands are pushed, and operators pop operands to compute results.
+It follows the LIFO rule.
+
+Infix vs Prefix vs Postfix
+
+Infix: A + B (operator in middle)
+
+Prefix: + A B (operator first)
+
+Postfix: A B + (operator last)
+
+Prefix and Postfix do not need parentheses.

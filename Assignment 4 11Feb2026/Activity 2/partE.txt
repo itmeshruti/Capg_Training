@@ -1,0 +1,41 @@
+Part E: Analytical Task
+Analyze the time complexity of the following stack operations:
+• Push
+• Pop
+• Peek
+• Balanced Parentheses Check
+
+✅ Time Complexity Analysis of Stack Operations
+1️⃣ Push Operation
+
+Adds an element to the top of the stack.
+
+Takes constant time.
+
+Time Complexity: O(1)
+
+2️⃣ Pop Operation
+
+Removes the top element from the stack.
+
+No shifting of elements required.
+
+Time Complexity: O(1)
+
+3️⃣ Peek Operation
+
+Returns the top element without removing it.
+
+Direct access to top index.
+
+Time Complexity: O(1)
+
+4️⃣ Balanced Parentheses Check
+
+Traverses the entire expression once.
+
+Each character is pushed or popped at most once.
+
+If expression length is n,
+
+Time Complexity: O(n)
